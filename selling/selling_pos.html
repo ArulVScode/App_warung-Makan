@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>:: W.M 1453 | POS ::</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
+        </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../index3.html" class="brand-link">
+      <img src="../dist/img/logo/W.M1453.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">W.M 1453</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../dist/img/logo/Profile.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Muh. Asrul Mulis</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="../index3.html" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../product/product.html" class="nav-link">
+              <i class="nav-icon fas fa-store"></i>
+              <p>
+                Product
+              </p>
+            </a>
+          </li>
+		  <li class="nav-item menu-open">
+            <a href="selling.html" class="nav-link active">
+              <i class="nav-icon fas fa-cash-register"></i>
+              <p>
+                Selling
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb">
+          <div class="col-sm-6">
+            <h1 style="display: flex;">Store<p style="opacity: .5">&nbsp;POS</p></h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="selling.html">Home</a></li>
+              <li class="breadcrumb-item active">Selling/POS</li>
+            </ol>
+          </div>
+        </div>	
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+			<!-- left column -->
+			<div class="col-md-4">
+				<!-- general form elements -->
+				<div class="card card-primary">
+				  <!-- form start -->
+					<form class="form-horizontal">
+						<div class="card-body" style="padding: 10px;">
+						  <div class="form-group row">
+							<label for="sellingDate" class="col-sm col-form-label">Date</label>
+							<div class="col-sm-8">
+							  <input type="date" class="form-control" id="sellingDate">
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label for="sellingKasir" class="col-sm col-form-label">Kasir</label>
+							<div class="col-sm-8">
+							  <input type="text" class="form-control" id="sellingKasir" placeholder="Enter date" value="Muh. Asrul Mulis" disabled>
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label for="sellingCustomer" class="col-sm col-form-label">Customer</label>
+							<div class="col-sm-8">
+							  <select class="form-control" id="customerName" name="sellingCustomer">
+								<option>Umum</option>
+								<option>option 2</option>
+								<option>option 3</option>
+								<option>option 4</option>
+								<option>option 5</option>
+							  </select>
+							</div>
+						  </div>
+						</div>
+					</form>
+				</div>
+				<!-- /.card -->
+			</div>
+			<div class="col-md-4">
+			<!-- Barcode -->
+				<div class="card card-primary">
+				  <!-- form start -->
+					<form class="form-horizontal">
+						<div class="card-body" style="padding: 10px;">
+							<div class="form-group row">
+								<label for="sellingBarcode" class="col-sm col-form-label">Barcode</label>
+								<div class="col-sm-9">
+								   <div class="input-group input-group-sm">
+									 <input type="search" class="form-control" id="sellingBarcode">
+									  <span class="input-group-append">
+										<button type="submit" class="btn btn-info btn-flat">
+											<i class="fas fa-search"></i>
+										</button>
+									  </span>
+								   </div>
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="sellingQty" class="col-sm col-form-label">Qty</label>
+								<div class="col-sm-9">
+								  <input type="number" class="form-control" id="sellingQty" placeholder="Enter date" value="1">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="sellingQty" class="col-sm col-form-label"></label>
+								<div class="col-sm-9">
+									<button type="submit" class="btn btn-info"><i class="fas fa-cart-plus"></i>&nbsp;Add</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<!-- form start -->
+				<!-- Invoice -->
+				<form class="form-horizontal">
+					<div class="info-box mb-2" style="padding: 10px;">
+						<span class="info-box-icon"><i class="fas fa-file-invoice"></i></span>
+						<div class="info-box-content" style="text-align: right;">
+							<span class="info-box-text" style="font-size: 18px;">Invoice<b>&nbsp;WM2003250003</b></span>
+							<span class="info-box-number" style="font-weight: bold; font-size: 70px;">300000</span>
+						</div>
+					  <!-- /.info-box-content -->
+					</div>
+				</form>
+			</div>
+			<!--/.col (right) -->
+			<div class="col-md-12">
+				<div class="card card-primary">
+					<form class="form-horizontal">
+						<div class="card-body">
+							<div class="card-body p-0">
+							  <table class="table table-striped projects">
+								  <thead>
+									  <tr>
+										  <th style="width: 10%">
+											  #Code
+										  </th>
+										  <th style="width: 10%">
+											  Barcode
+										  </th>
+										  <th style="width: 15%">
+											  Product Item
+										  </th>
+										  <th style="width: 10%">
+											  Price
+										  </th>
+										  <th style="width: 10%" class="text-center">
+											  Qty
+										  </th>
+										  <th style="width: 10%" class="text-center">
+											  Discount
+										  </th>
+										  <th style="width: 20%" class="text-center">
+											  Actions
+										  </th>
+									  </tr>
+								  </thead>
+								  <tbody>
+									  <tr>
+										  <td>
+											  00
+										  </td>
+										  <td>
+											  <a>
+												  A001
+											  </a>
+										  </td>
+										  <td>
+											  Ikan Bakar
+										  </td>
+										  <td class="project_progress">
+											  Rp20.000
+										  </td>
+										  <td class="project-state">
+											  1
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  01
+										  </td>
+										  <td>
+											  <a>
+												  A002
+											  </a>
+										  </td>
+										  <td>
+											  Ikan Kuah
+										  </td>
+										  <td class="project_progress">
+											  Rp25.000
+										  </td>
+										  <td class="project-state">
+											  1
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  02
+										  </td>
+										  <td>
+											  <a>
+												  A003
+										  </td>
+										  <td>
+											  Ayam Bakar
+										  </td>
+										  <td class="project_progress">
+											  Rp60.000
+										  </td>
+										  <td class="project-state">
+											  3
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  03
+										  </td>
+										  <td>
+											  <a>
+												  A004
+											  </a>
+										  </td>
+										  <td>
+											  Ikan Goreng
+										  </td>
+										  <td class="project_progress">
+											  Rp20.000
+										  </td>
+										  <td class="project-state">
+											  2
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  04
+										  </td>
+										  <td>
+											  <a>
+												  A005
+										  </td>
+										  <td>
+											  Nasi & Sayur
+										  </td>
+										  <td class="project_progress">
+											  Rp25.000
+										  </td>
+										  <td class="project-state">
+											  5
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  05
+										  </td>
+										  <td>
+											  <a>
+												  A006
+											  </a>
+										  </td>
+										  <td>
+											  Lauk
+										  </td>
+										  <td class="project_progress">
+											  Rp100.000
+										  </td>
+										  <td class="project-state">
+											  10
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  06
+										  </td>
+										  <td>
+											  <a>
+												  A007
+											  </a>
+										  </td>
+										  <td>
+											  Ayam Geprek
+										  </td>
+										  <td class="project_progress">
+											  Rp30.000
+										  </td>
+										  <td class="project-state">
+											  2
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  07
+										  </td>
+										  <td>
+											  <a>
+												  A008
+											  </a>
+										  </td>
+										  <td>
+											  Ayam Crispy
+										  </td>
+										  <td class="project_progress">
+											  Rp10.000
+										  </td>
+										  <td class="project-state">
+											  1
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+									  <tr>
+										  <td>
+											  08
+										  </td>
+										  <td>
+											  <a>
+												  A009
+											  </a>
+										  </td>
+										  <td>
+											  Nasi Goreng
+										  </td>
+										  <td class="project_progress">
+											  Rp15.000
+										  </td>
+										  <td class="project-state">
+											  1
+										  </td>
+										  <td class="project-state">
+											  0
+										  </td>
+										  <td class="project-actions text-right">
+											  <a class="btn btn-info btn-sm" href="#">
+												  <i class="fas fa-pencil-alt">
+												  </i>
+												  Update
+											  </a>
+											  <a class="btn btn-danger btn-sm" href="#">
+												  <i class="fas fa-trash">
+												  </i>
+												  Delete
+											  </a>
+										  </td>
+									  </tr>
+								  </tbody>
+							  </table>
+							</div>
+							<!-- /.card-body -->
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- /.row -->
+			<!-- left column -->
+			<div class="col-md-4">
+				<!-- general form elements -->
+				<div class="card card-primary">
+				  <!-- form start -->
+					<form class="form-horizontal">
+						<div class="card-body" style="padding: 10px;">
+						  <div class="form-group row">
+							<label for="subTotal" class="col-sm col-form-label">Subtotal</label>
+							<div class="input-group col-sm-8">
+							  <input type="number" class="form-control" id="subTotal" value="305000" disabled>
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label for="discountItem" class="col-sm col-form-label">Discount</label>
+							<div class="col-sm-8">
+							  <input type="number" class="form-control" id="discountItem" value="5000">
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label for="grandTotal" class="col-sm col-form-label">Grand Total</label>
+							<div class="col-sm-8">
+							  <input type="number" class="form-control" id="grandTotal" value="300000" disabled>
+							</div>
+						  </div>
+						</div>
+					</form>
+				</div>
+				<!-- /.card -->
+			</div>
+			<div class="col-md-3">
+				<!-- general form elements -->
+				<div class="card card-primary">
+				  <!-- form start -->
+					<form class="form-horizontal">
+						<div class="card-body" style="padding: 10px;">
+						  <div class="form-group row">
+							<label for="cash" class="col-sm col-form-label">Cash</label>
+							<div class="input-group col-sm-8">
+							  <div class="input-group-prepend">
+								<span class="input-group-text">Rp</span>
+							  </div>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest rupiah)" id="cash" value="Rp305.000">
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label for="change" class="col-sm col-form-label">Change</label>
+							<div class="input-group col-sm-8">
+							  <div class="input-group-prepend">
+								<span class="input-group-text">Rp</span>
+							  </div>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest rupiah)" id="change" value="Rp5000" disabled>
+							</div>
+						  </div>
+						</div>
+					</form>
+				</div>
+				<!-- /.card -->
+			</div>
+			<div class="col-md-3">
+				<!-- general form elements -->
+				<div class="card card-primary">
+				  <!-- form start -->
+					<form class="form-horizontal">
+						<div class="card-body" style="padding: 10px;">
+						  <div class="form-group row">
+							<label for="note" class="col-sm col-form-label">Note</label>
+							<div class="col-sm-9">
+							  <textarea rows="2" type="text" class="form-control" id="note">Lunas</textarea>
+							</div>
+						  </div>
+						</div>
+					</form>
+				</div>
+				<!-- /.card -->
+			</div>
+			<div class="col-md-2">
+				<!-- general form elements -->
+				<div class="form-group row">
+					<div class="col-sm-7">
+						<button type="submit" class="btn btn-warning" style="font-size: 14px;"><i class="fas fa-reply" style="font-size: 14px;"></i>&nbsp;Cancel</button>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-12">
+						<button type="submit" class="btn btn-success"><i class="fas fa-paper-plane"></i>&nbsp;Process Payment</button>
+					</div>
+				</div>
+				<!-- /.card -->
+			</div>
+        </div><!-- /.container-fluid -->
+  </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.2.0
+    </div>
+    <strong>Copyright &copy; 2024-2025 <a href="https://adminlte.io">W.M 1453</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- bs-custom-file-input -->
+<script src="../plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+<!-- Page specific script -->
+<script>
+$(function () {
+
+	bsCustomFileInput.init();
+});
+
+function formatRupiah(amount, prefix) {
+  var number_string = amount.replace(/[^,\d]/g, '').toString(),
+      split = number_string.split(','),
+      sisa  = split[0].length % 3,
+      rupiah  = split[0].substr(0, sisa),
+      ribuan  = split[0].substr(sisa).match(/\d{3}/gi);
+      
+  // tambahkan titik jika yang di input sudah menjadi angka ribuan
+  if(ribuan){
+    separator = sisa ? '.' : '';
+    rupiah += separator + ribuan.join('.');
+  }
+  
+  rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+  return prefix == undefined ? rupiah : (rupiah ? 'Rp' + rupiah : '');
+}
+
+// event listener untuk inputan uang
+document.getElementById('cash').addEventListener('keyup', function(e) {
+  var input = this.value;
+  this.value = formatRupiah(input, 'Rp');
+});
+
+function formatRupiah(amount, prefix) {
+  var number_string = amount.replace(/[^,\d]/g, '').toString(),
+      split = number_string.split(','),
+      sisa  = split[0].length % 3,
+      rupiah  = split[0].substr(0, sisa),
+      ribuan  = split[0].substr(sisa).match(/\d{3}/gi);
+      
+  // tambahkan titik jika yang di input sudah menjadi angka ribuan
+  if(ribuan){
+    separator = sisa ? '.' : '';
+    rupiah += separator + ribuan.join('.');
+  }
+  
+  rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+  return prefix == undefined ? rupiah : (rupiah ? 'Rp' + rupiah : '');
+}
+
+// event listener untuk inputan uang
+document.getElementById('change').addEventListener('keyup', function(e) {
+  var input = this.value;
+  this.value = formatRupiah(input, 'Rp');
+});
+</script>
+</body>
+</html>
